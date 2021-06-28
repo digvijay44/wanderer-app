@@ -32,8 +32,10 @@
             ],
             "styles": [
               "src/assets/CSS/bootstrap/dist/css/bootstrap.css",
+              "src/assets/scss/black-dashboard.scss",
               "src/styles.scss",
-              "src/assets/themes/theme.scss"
+              "src/assets/themes/theme.scss",
+              "src/assets/css/nucleo-icons.css"
             ],
             "scripts": []
           },
