@@ -19,7 +19,14 @@ const routes: Routes = [
   {
     path: '',
     component: PrivateLayoutComponent,
-    children: [{ path: 'user', component: UserComponent }],
+    children: [
+      { path: 'user', component: UserComponent },
+      {
+        path: 'trip',
+        loadChildren: () =>
+          import('../app/modules/trip/trip.module').then((m) => m.TripModule),
+      },
+    ],
   },
 ];
 
