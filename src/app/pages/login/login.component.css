@@ -1,0 +1,113 @@
+.login-bg {
+  background-color: #111;
+}
+
+
+
+.title-head {
+  margin: 0;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 45px;
+  margin-top: 0;
+  color: #fff;
+  padding: 10px 0 20px;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+.title-head span {
+  color: #fd961a;
+}
+
+.user-auth {
+  padding: 0;
+}
+
+.user-auth>div:nth-child(2) .form-container {
+  display: table;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+}
+
+.user-auth>div:nth-child(2) .form-container>div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.user-auth>div:nth-child(2) .form-container form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.user-auth>div:nth-child(2) .form-container form .form-group {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.user-auth>div:nth-child(2) .form-container button {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.user-auth>div:nth-child(2) .form-container p {
+  text-transform: uppercase;
+}
+
+.user-auth>div:nth-child(2) .form-container p.info-form {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.user-auth>div:nth-child(2) .form-container .form-group p {
+  font-size: 12px;
+}
+
+.user-auth>div:nth-child(2) .form-container .form-group a:hover {
+  opacity: .9;
+}
+
+a.active {
+  color: #fd961a;
+}
+
+a {
+  color: #fd961a;
+}
+
+.picsum-img-wrapper img {
+  height: 100vh;
+  opacity: 0.8;
+}
+
+.carousel-caption p {
+  color: #fff !important;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+.form-control {
+  box-shadow: none;
+  border: 1px solid #333;
+  padding: 0px 0px 4px 20px;
+  height: 46px;
+  color: #fff;
+  background: #222;
+  font-size: 14px;
+  border-radius: 0;
+  outline: 0;
+  transition: .1s;
+}
+
+a.active {
+  color: #fd961a;
+}
+
+a {
+  color: #fd961a;
+}
