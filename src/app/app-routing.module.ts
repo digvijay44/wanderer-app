@@ -31,6 +31,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('../app/modules/my-trips/my-trips.module').then((m) => m.MyTripsModule),
       },
+      {
+        path: 'notes',
+        loadChildren: () =>
+          import('../app/modules/notes/notes.module').then((m) => m.NotesModule),
+      },
     ],
   },
 ];

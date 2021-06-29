@@ -14,6 +14,8 @@ import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';   
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFilm } from '@fortawesome/free-solid-svg-icons';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireMessagingModule } from '@angular/fire/messaging';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,15 @@ import { faFilm } from '@fortawesome/free-solid-svg-icons';
       useFactory: adapterFactory,
     }),
     CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory }),
-    FontAwesomeModule
+    FontAwesomeModule,
+    AngularFireModule.initializeApp({ /* See project settings in Firebase Console for this information */
+      apiKey: "AIzaSyAv6L5j_JO3ApgBVqW574D0oM84s0VxsQo",
+      projectId: "wanderer-notification",
+      storageBucket: "wanderer-notification.appspot.com",
+      messagingSenderId: "561156961049",
+      appId: "1:561156961049:web:3e515a72b2ed27141c8b88"
+     }),
+     AngularFireMessagingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

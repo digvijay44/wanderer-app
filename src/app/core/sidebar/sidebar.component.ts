@@ -29,8 +29,8 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-pin",
     class: "" },
   {
-    path: "/notifications",
-    title: "Notifications",
+    path: "/notes",
+    title: "Notes",
     rtlTitle: "إخطارات",
     icon: "icon-bell-55",
     class: ""
@@ -44,24 +44,10 @@ export const ROUTES: RouteInfo[] = [
     class: ""
   },
   {
-    path: "/tables",
-    title: "Table List",
+    path: "/search",
+    title: "Search Partners",
     rtlTitle: "قائمة الجدول",
     icon: "icon-puzzle-10",
-    class: ""
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    rtlTitle: "طباعة",
-    icon: "icon-align-center",
-    class: ""
-  },
-  {
-    path: "/rtl",
-    title: "RTL Support",
-    rtlTitle: "ار تي ال",
-    icon: "icon-world",
     class: ""
   }
 ];
