@@ -5,6 +5,8 @@ import { NotesRoutingModule } from './notes-routing.module';
 import { NoteListingComponent } from './note-listing/note-listing.component';
 import { NoteDetailsComponent } from './note-details/note-details.component';
 import { AddNoteComponent } from './add-note/add-note.component';
+import { CKEditorModule } from 'ckeditor4-angular';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { AddNoteComponent } from './add-note/add-note.component';
   ],
   imports: [
     CommonModule,
-    NotesRoutingModule
+    FormsModule,
+    NotesRoutingModule,
+    CKEditorModule
   ]
 })
 export class NotesModule { }

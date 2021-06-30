@@ -1,1 +1,10 @@
-<p>note-details works!</p>
+<div class=" content">
+    <p>note-details works!</p>
+    <button type="button" class="btn btn-secondary" (click)="GetCkeditorHtml()">Get HTML</button>
+    <ckeditor
+    [(ngModel)]="model.editorData">
+            </ckeditor>
+            
+<p>Result of binding to innerHTML:</p>
+<p [innerHTML]="htmlSnippet"></p>
+</div>
