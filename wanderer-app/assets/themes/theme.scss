@@ -1,0 +1,168 @@
+body,
+p {
+  -webkit-font-smoothing: antialiased !important;
+  color: #999;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.btn-primary {
+  border: 0;
+  border-radius: 0;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: .1s;
+  outline: 0;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fd961a;
+}
+
+.btn-primary:hover {
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: none;
+  outline: 0;
+  background-color: #fd961a !important;
+}
+
+.form-control {
+  box-shadow: none;
+  border: 1px solid #333;
+  padding: 0px 0px 4px 20px;
+  height: 46px;
+  color: #fff;
+  background: #222;
+  font-size: 14px;
+  border-radius: 0;
+  outline: 0;
+  transition: .1s;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #555;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Microsoft Edge */
+hr {
+  background-color: #e7e7e7;
+  border: 0;
+  height: 1px;
+  margin: 40px 0;
+}
+
+.title-head {
+  margin: 0;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 45px;
+  margin-top: 0;
+  color: #fff;
+  padding: 10px 0 20px;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 15px;
+}
+
+.title-head span {
+  color: #fd961a;
+}
+
+.title-head-subtitle p {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.title-head-subtitle p:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  right: -50px;
+  top: 13px;
+  width: 30px;
+}
+
+.title-head-subtitle p:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  left: -50px;
+  top: 13px;
+  width: 30px;
+}
+
+
+
+.form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Microsoft Edge */
